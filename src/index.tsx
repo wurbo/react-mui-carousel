@@ -25,12 +25,9 @@ const CarouselRoot = styled(Grid)(({ theme }) => ({
     width: 'auto'
 }))
 
-const CarouselButton = styled(IconButton)(({ theme }) => {
-    console.log('theme.shape', theme.shape)
-    return {
-        borderRadius: theme.shape.borderRadius
-    }
-})
+const CarouselButton = styled(IconButton)(({ theme }) => ({
+    borderRadius: theme.shape.borderRadius
+}))
 
 export interface CarouselProps {
     items: ReactNodeArray
