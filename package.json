@@ -29,7 +29,7 @@
             "pre-commit": "tsdx lint"
         }
     },
-    "name": "react-mui-carousel",
+    "name": "@wurbo/react-mui-carousel",
     "author": "Aaron Merryman",
     "module": "dist/react-mui-carousel.esm.js",
     "size-limit": [
